@@ -1,0 +1,46 @@
+/* IMAGES SVGS ANIMATIONS LOGOS ICONS */
+
+
+/* set on image to curve text around image */
+
+.shape {
+    width: 300px;
+    float: left;
+    shape-outside: circle(50%);
+}
+
+#logo {
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background: url(logo.svg);
+    background-size: 100px 82px;
+}
+
+
+/* ----------------------------------------- */
+
+
+/* UTILITY */
+
+.align-vertically {
+    background: #13b5ea;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+
+/* ----------------------------------------- */
+
+
+/* TEXT */
+
+h1 {
+    font-family: Arial;
+    font-size: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#333));
+    -webkit-text-fill-color: transparent;
+}

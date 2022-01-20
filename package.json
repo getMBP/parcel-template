@@ -1,0 +1,24 @@
+{
+    "name": "scss",
+    "version": "1.0.0",
+    "main": "main.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "eslint": "^8.7.0",
+        "parcel-bundler": "^1.12.5",
+        "sass": "^1.47.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.7",
+        "@babel/plugin-transform-runtime": "^7.16.7",
+        "parcel": "^2.1.1"
+    },
+    "scripts": {
+        "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
+        "build": "parcel build public/index.html --out-dir dist --public-url ./"
+    },
+    "description": "dev: parcel delete development folder and cache folder then bundle and create the public/index.html folder into the development directory and start server on 3000"
+}
